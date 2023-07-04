@@ -1,0 +1,20 @@
+/*Mobile 0 - 425px*/
+.experiencia__titulo {
+  color: var(--preto-claro);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .experiencia__titulo {
+    font-size: 1.1rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .experiencia__titulo {
+    font-size: 1.4rem;
+  }
+}

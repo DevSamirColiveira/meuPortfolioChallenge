@@ -1,0 +1,27 @@
+/*Mobile 0 - 425px*/
+.skills__img img {
+  width: 1.875rem;
+  height: 1.688rem;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .skills__img img {
+    width: 3.125rem;
+    height: 2.938rem;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .skills__img img {
+    width: 3.125rem;
+    height: 2.938rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .skills__img img {
+    width: 3.75rem;
+    height: 3.563rem;
+  }
+}

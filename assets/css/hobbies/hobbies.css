@@ -1,0 +1,21 @@
+/*Mobile 0 - 425px*/
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  
+}
+
+/*Desktop*/
+/*Desktop*/
+@media screen and (min-width: 1440px) {
+  .hobbies {
+    margin: 0 10rem 0 0;
+  }
+}

@@ -1,0 +1,15 @@
+/*Mobile 0 - 425px*/
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1440px) {
+  .skills {
+    margin: 0 0 0 12rem;
+  }
+}
