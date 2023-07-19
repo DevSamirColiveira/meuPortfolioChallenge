@@ -374,10 +374,10 @@
                     <h3 class="formcontato__subtexto">Quer entrar em contato comigo?</h3>
                     <h3 class="formcontato__subtexto">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
                     <form class="formcontato__form">
-                        <input class="formcontato__input" type="text" id="nome" name="nome" placeholder="digite o seu nome" required>
-                        <input class="formcontato__input" type="email" id="oemail" placeholder="seuemail@dominio.com.br" required>
-                        <input class="formcontato__input" type="tel" id="phone" name="phone" placeholder="Ex.: 11-91234-1234" required>
-                        <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto" required>
+                        <input class="formcontato__input" type="text" minlength="3" id="nome" name="nome" placeholder="digite o seu nome" required>
+                        <input class="formcontato__input" type="email" minlength="4" id="oemail" placeholder="seuemail@dominio.com.br" required>
+                        <input class="formcontato__input" type="tel" minlength="11" maxlength="13" id="phone" name="phone" placeholder="Ex.: 11-91234-1234" required>
+                        <input class="formcontato__input" type="text" minlength="5" id="assunto" placeholder="Assunto" required>
                         <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem..."></textarea>
                         <button class="formcontato__botao" type="submit">Enviar mensagem</button>
                     </form>
