@@ -376,7 +376,7 @@
                     <form class="formcontato__form">
                         <input class="formcontato__input" type="text" minlength="3" id="nome" name="nome" placeholder="digite o seu nome" required>
                         <input class="formcontato__input" type="email" minlength="4" id="oemail" placeholder="seuemail@dominio.com.br" required>
-                        <input class="formcontato__input" type="tel" minlength="11" maxlength="13" id="phone" name="phone" placeholder="Ex.: 11-91234-1234" required>
+                        <input class="formcontato__input" type="tel" minlength="11" maxlength="13" pattern="\d{2}\-?\d{5}\-?\d{4}" id="phone" name="phone" placeholder="Ex.: 11-91234-1234" required>
                         <input class="formcontato__input" type="text" minlength="5" id="assunto" placeholder="Assunto" required>
                         <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem..."></textarea>
                         <button class="formcontato__botao" type="submit">Enviar mensagem</button>
