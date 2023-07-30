@@ -1,0 +1,81 @@
+/*Bases*/
+@import url(./reset.css);
+@import url(./normalize.css);
+@import url(./base.css);
+
+/*Outros*/
+@import url(./logo.css);
+@import url(./skills-hobbies.css);
+@import url(./footer.css);
+
+/*Menu*/
+@import url(./menu/menu.css);
+@import url(./menu/menu-cabecalho.css);
+@import url(./menu/menu-titulo.css);
+@import url(./menu/menu-navegacao.css);
+@import url(./menu/menu-lista.css);
+@import url(./menu/menu-link.css);
+
+/*Titulo*/
+@import url(./titulo/titulo.css);
+@import url(./titulo/titulo-div.css);
+@import url(./titulo/titulo-perfil.css);
+@import url(./titulo/titulo-container.css);
+@import url(./titulo/titulo-bio.css);
+@import url(./titulo/titulo-subsecao.css);
+@import url(./titulo/titulo-network.css);
+@import url(./titulo/titulo-network-item.css);
+
+/*Sobre*/
+@import url(./sobre/sobre.css);
+@import url(./sobre/sobre-container.css);
+@import url(./sobre/sobre-titulo.css);
+@import url(./sobre/sobre-paragrafo.css);
+@import url(./sobre/sobre-assinatura.css);
+
+/*skills*/
+@import url(./skills/skills.css);
+@import url(./skills/skills-titulo.css);
+@import url(./skills/skills-linha.css);
+@import url(./skills/skills-box.css);
+@import url(./skills/skills-img.css);
+@import url(./skills/skills-nome.css);
+
+/*hobbies*/
+@import url(./hobbies/hobbies.css);
+@import url(./hobbies/hobbies-titulo.css);
+@import url(./hobbies/hobbies-linha.css);
+@import url(./hobbies/hobbies-box.css);
+@import url(./hobbies/hobbies-img.css);
+@import url(./hobbies/hobbies-name.css);
+
+/*academica*/
+@import url(./academico/academica.css);
+@import url(./academico/academica-titulo.css);
+@import url(./academico/academica-cursos-item-img.css);
+@import url(./academico/academica-cursos.css);
+@import url(./academico/academica-cursos-lista.css);
+@import url(./academico/academica-cursos-box.css);
+@import url(./academico/academica-cursos-item-titulo.css);
+@import url(./academico/academica-cursos-item-subtitulo.css);
+
+/*experiencia*/
+@import url(./experiencia/experiencia.css);
+@import url(./experiencia/experiencia-secao-titulo.css);
+@import url(./experiencia/experiencie-box/experiencie-box.css);
+@import url(./experiencia/experiencie-box/experiencia-img.css);
+@import url(./experiencia/experiencie-box/experiencia-infos/experiencia-titulo.css);
+@import url(./experiencia/experiencie-box/experiencia-infos/experiencia-texto.css);
+@import url(./experiencia/experiencie-box/experiencia-infos/experiencia-descricao/experiencia-descricao.css);
+@import url(./experiencia/experiencie-box/experiencia-infos/experiencia-descricao/experiencia-repo.css);
+@import url(./experiencia/experiencie-box/experiencia-infos/experiencia-descricao/experiencia-demo.css);
+@import url(./experiencia/experiencie-box/experiencia-infos/experiencia-infos.css);
+
+/*formcontato*/
+@import url(./formcontato/formcontato.css);
+@import url(./formcontato/formcontato-esquerda.css);
+@import url(./formcontato/formcontato-contato.css);
+@import url(./formcontato/formcontato-text.css);
+@import url(./formcontato/formcontato-title.css);
+@import url(./formcontato/formcontato-form.css);
+@import url(./formcontato/formcontato-subtexto.css);
